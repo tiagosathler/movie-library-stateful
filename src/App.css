@@ -1,0 +1,136 @@
+body {
+  background-color: whitesmoke;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.movie-card-header {
+  align-items: center;
+  background-color: #343a40;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+}
+
+.page-title {
+  color: #f8f9fa;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.search-bar {
+  margin-top: 10px;
+}
+
+.search-bar-elements {
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+/* Efeito metálico obtido em https://www.eggradients.com/category/metal-gradient */
+.movie-list {
+  background-color: #2f4353;
+  background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);
+  display: flex;
+  flex-flow: row wrap;
+  padding: 48px 30px;
+}
+
+.movie-card {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  margin: 5px;
+  overflow: hidden;
+  width: 300px;
+}
+
+
+.movie-card-image {
+  width: 100%;
+}
+
+.movie-card-body {
+  flex: 1 1 auto;
+  padding: 20px;
+}
+
+.movie-card-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0 0 12px;
+}
+
+.movie-card-subtitle {
+  color: #6c757d;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 0 8px;
+}
+
+.movie-card-storyline {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.movie-card-footer {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.movie-card-footer label {
+  margin-bottom: 0;
+}
+
+.movie-card-footer input {
+  margin-right: 4px;
+}
+
+.rating {
+  background-color: #007bff;
+  border-radius: 25px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 3px 9px;
+}
+
+.movie-card-rating {
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px 20px;
+}
+
+.add-movie-section {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.add-movie-form {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.add-movie-colunm {
+  align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  width: 50%;
+}
